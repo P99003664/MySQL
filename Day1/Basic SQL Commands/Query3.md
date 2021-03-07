@@ -4,5 +4,5 @@
 # Query:
 ## select count(Moviename) from movie where Length > 18;
 
-![Alt Text](https://github.com/PS99003664/MySQL/blob/main/Images/q3.png)<br />
+![Alt Text](https://github.com/P99003664/MySQL/blob/main/Day1/Images/q3.PNG)<br />
 
