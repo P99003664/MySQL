@@ -1,12 +1,10 @@
-USE `sqlqueries`;
-DROP procedure IF EXISTS `getProductionDetails`;
-
-DELIMITER $$
-USE `sqlqueries`$$
-CREATE PROCEDURE `getProductionDetails` ()
-BEGIN
-select * from Productions;
-END$$
-
+USE `sqlqueries`;</br>
+DROP procedure IF EXISTS `getProductionDetails`;</br>
+DELIMITER $$</br>
+USE `sqlqueries`$$</br>
+CREATE PROCEDURE `getProductionDetails` ()</br>
+BEGIN</br>
+select * from Productions;</br>
+END$$</br>
 DELIMITER ;
 
