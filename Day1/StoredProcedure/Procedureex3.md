@@ -1,17 +1,12 @@
-USE `sqlqueries`;
-DROP procedure IF EXISTS `getAddress`;
-
-USE `sqlqueries`;
-DROP procedure IF EXISTS `sqlqueries`.`getAddress`;
-;
-
-DELIMITER $$
-USE `sqlqueries`$$
-CREATE DEFINER=`root`@`localhost` PROCEDURE `getAddress`()
-BEGIN
-select * from productions where Address="Bangalore";
-END$$
-
+USE `sqlqueries`;</br>
+DROP procedure IF EXISTS `getAddress`;</br>
+USE `sqlqueries`;</br>
+DROP procedure IF EXISTS `sqlqueries`.`getAddress`;</br>
+DELIMITER $$</br>
+USE `sqlqueries`$$</br>
+CREATE DEFINER=`root`@`localhost` PROCEDURE `getAddress`()</br>
+BEGIN</br>
+select * from productions where Address="Bangalore";</br>
+END$$</br>
 DELIMITER ;
-;
 
