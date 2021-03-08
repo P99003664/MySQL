@@ -1,12 +1,10 @@
-USE `sqlqueries`;
-DROP procedure IF EXISTS `getMovieDetails`;
-
-DELIMITER $$
-USE `sqlqueries`$$
-CREATE PROCEDURE `getMovieDetails` ()
-BEGIN
-select * from movie;
-END$$
-
-DELIMITER ;
+USE `sqlqueries`;</br>
+DROP procedure IF EXISTS `getMovieDetails`;</br>
+DELIMITER $$</br>
+USE `sqlqueries`$$</br>
+CREATE PROCEDURE `getMovieDetails` ()</br>
+BEGIN</br>
+select * from movie;</br>
+END$$</br>
+DELIMITER ;</br>
 
